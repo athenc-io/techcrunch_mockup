@@ -1,0 +1,479 @@
+/*
+  ========================================
+  RESET CSS
+  ========================================
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  BOX-SIZING
+  ========================================
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+  ========================================
+  GRID
+  ========================================
+*/
+
+header, 
+.content {
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    margin-right: 8px;
+    margin-top: 0;
+    padding-top: 30px;
+}
+.content {
+    width: 60%;
+}
+
+.main-highlight {
+    width: 65%;
+    padding-right: 50px;
+}
+
+.other-highlight {
+    width: 35%;
+   
+}
+
+.main-highlight,
+.other-highlight {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.regular-content {
+    margin-top: 30px;
+  
+}
+
+span {
+    display: block;
+}
+
+#latest {
+    padding-bottom: 18px;
+
+}
+
+.highlights article {
+    padding: 20px 0 10px 0;
+    border-top: 1px solid rgb(221,221,221);
+}
+
+.regular-content article {
+    padding: 30px 0 30px 0;
+    border-top: 2px solid rgb(241,241,241);
+}
+
+.regular-content article:last-child {
+    border-bottom: 2px solid rgb(241,241,241);
+}
+
+.highlights article:first-of-type  {
+    padding-top: 0;
+    border-top: 0;
+}
+
+article h2 {
+    margin-top: 15px;
+}
+
+.regular-content header,
+p, 
+img {
+    position: static;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+.regular-content header {
+    width: 32%;
+}
+
+.regular-content p {
+    width: 34%;
+}
+
+.regular-content img {
+    width: 34%;
+}
+
+.regular-content header, p {
+    padding-right: 40px;
+}
+
+
+
+.regular-content time {
+    display: block;
+    margin-top: 8px;
+}
+
+
+
+#join-techcrunch {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+nav {
+    margin-top: 30px;
+}
+
+nav li {
+    display: block;
+}
+
+#search {
+    margin-bottom: 10px;
+}
+
+#logo {
+    width: 50%;
+}
+
+/*
+  ========================================
+  IMAGES
+  ========================================
+*/
+
+.main-highlight img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.regular-content img {
+    padding-left: 20px;
+}
+
+
+/*
+  ========================================
+  TYPOGRAPHY
+  ========================================
+*/
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+article h1 {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+    line-height: 1.1;
+}
+
+.other-highlight article h1 {
+    font-size: 28px;
+    letter-spacing: -0.5px;
+    word-spacing: -5px;
+}
+
+
+.main-highlight article h1 {
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: -2.0px;
+    word-spacing: -3.0px;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: rgb(150,150,150);
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+article h2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(71,71,71);
+}
+
+#latest {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -.9px;
+}
+
+#login {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#login-link {
+    color:rgb(127,127,127);
+}
+
+nav li {
+    line-height: 1.7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+nav li a {
+    color: rgb(119,119,119);
+}
+
+#join-techcrunch {
+    font-weight: 900;
+    font-size: 18px;
+    
+}
+#join-techcrunch a {
+    color: rgb(253,192,6);
+}
+
+.regular-content time {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(119,123,128);
+}
+
+/*
+  ========================================
+  HOVER 
+  ========================================
+*/
+
+article {
+    opacity: 100%;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+}
+
+article:hover {
+    opacity: 60%;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.other-highlight h1:hover {
+    color: #333;
+}
+
+h2 {
+    display: inline-block;
+}
+
+h2:hover {
+    opacity: 100%;
+    color:#00a562;
+}
+
+nav li:hover a {
+    color:#00a562;
+}
+
+#login:hover a {
+    color:#00a562;
+}
+
+#join-techcrunch:hover a {
+    color: rgb(225,173,90);
+}
+
+/*
+  ========================================
+  NEWSLETTER
+  ========================================
+*/
+
+#newsletters {
+    padding: 40px 0 40px 0;
+    border-top: 2px solid rgb(241,241,241);
+}
+
+#newsletters h3 {
+    width: 30%;
+    display: inline-block;
+    
+}
+
+#newsletters form {
+    width: 70%;
+    display: inline-block;
+}
+
+.newsletters-columns {
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 30px;
+}
+
+.newsletters-option {
+    display: inline-block;
+}
+
+/* Hide the browser's default checkbox */
+.newsletters-option input {
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.custom-checkbox {
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.newsletters-columns .newsletters-option:hover input ~ .custom-checkbox {
+    background-color: #ccc;
+}
+
+.newsletters-columns .newsletters-option input:checked ~ .custom-checkbox {
+    background-color: rgb(0,165,98);
+    border-color: rgb(0,165,98);
+}
+
+
+
+.newsletters-columns .newsletters-option h4 {
+    display: inline-block;
+    margin-right: 50px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+
+
+h3 {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    word-spacing: -3px;
+    width: 33.33%;
+}  
+
+
+.email-textbox input[type=text] {
+    top: 0;
+    left: 0;
+    margin-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    height: 60px;
+    width: 80%;
+    border: none;
+    border-bottom: 1.5px solid rgb(241,241,241);
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(119,119,119);
+    font-size: 17px;
+    font-weight: 100px;
+    letter-spacing: -0.5px;
+}
+
+.email-textbox input[type=text]:focus {
+    outline-style: none;
+}
+
+
+#submit {
+    top: 0;
+    left: 0;
+    margin-left:23px;
+    height: 50px;
+    width: 15%;
+    border: none;
+    border-bottom: 1.5px solid rgb(241,241,241);
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -0.1px;
+    vertical-align: bottom;
+    background: rgb(221,221,221);
+}
+
